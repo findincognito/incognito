@@ -1,24 +1,495 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
+//* nav bar and header chnages *//
+  .dropdown-item{
+     font-family: ocr-a-std, monospace !important;
+font-style: normal;
+font-weight: 400;
 }
 
-.container 
+.nav-link dropdown-toggle{
+    font-family: ocr-a-std, monospace !important;
+font-style: normal;
+font-weight: 400;
+}
+
+.nav-link{
+     font-family: ocr-a-std, monospace !important;
+font-style: normal;
+font-weight: 400;
+}
+
+
+  .breadcrumb{
+               font-family: ocr-a-std, monospace;
+font-style: normal;
+font-weight: 400;
+            background: black;
+        }
+        
+        .breadcrumb-item active{
+            color: white !important;
+        }
+        
+        .breadcrumb-item{
+            color: white !important;
+        }
+
+.navbar-brand
 {
+    
+    text-align: center;
+     display: inline-block;
+  float: none;
+  vertical-align: top;
+   font-family: stencil-creek, sans-serif;
+    font-size: 39px;
+}
+
+        
+//* for now this makes the navbar text resposnive however it is not centre *//
+
+.none{
+color: transparent;
+}
+
+.black{
+    background-color: black;
+}
+
+.my-4{
+    text-align: center;
+}
+
+ //* <!-- style for country selction buttons -->*//
+    
+  
+        
+        .my-4{
+            text-align: center;
+        }
+        
+        .UnitedKingdom {
     position: absolute;
-    top: 50%;
+    top: 94%;
+    left: 57%;
+            transform: translate(-50%, -50%);
+}
+
+        .UnitedStates {
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+        
+}
+
+        
+        
+        .Vietnam {
+    position: absolute;
+    top: 76%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+}
+
+        .Russia {
+    position: absolute;
+    top: 39%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+        
+        .Brazil1 {
+    position: absolute;
+    top: 76%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+
+      /* link buttons */
+
+.links {
+  background-color: transparent;
+     text-shadow: 0 0 33px black;
+  color: darkgreen;
+  font-family: ocr-a-std, monospace !important;
+font-style: normal;
+font-weight: 400;
+    font-size: 100%;
+  padding: 2px 15px;
+  text-align: center;
+    -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+     border: solid #11FF00 3px;
+box-shadow: inset 0 0 10px 1px #11FF00;
+    box-shadow: 0 0 10px 1px #11FF00;
+  text-decoration: none;
+
+
+}
+
+links:hover, links:active {
+  background-color: transparent;
+    color: white;
+     text-shadow: 0 0 5px #11FF00;
+   border: solid #11FF00 5px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   text-decoration: none;
+ }
+
+/* search button!!!! search button !!!!*/
+
+ .UnitedStatess {
+  background-color: #eeeeee;
+     text-shadow: 0 0 10px white;
+  color: grey;
+font-family: sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+  padding: 1px 20px;
+  text-align: center;
+   border-radius: 7px;
+     border: solid #eeeeee 4px;
+  text-decoration: none;
+  display: inline-block;
+    position: absolute;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.button
-{
-    position: relative;
-    text-align: center;
-    width: 250px;
-    padding: 250px;
+.UnitedStatess:hover, .UnitedStatess:active {
+  background-color: #b1b1b1;
+    color: dimgrey;
+     text-shadow: 0 0 0px grey;
+   border: solid #b1b1b1 4px;
+   border-radius: 7px;
+   text-decoration: none;
+        }
+
+ .russiaa {
+  background-color: #ffe580;
+     text-shadow: 0 0 0px white;
+  color: black;
+font-family: sans-serif;
     font-size: 35px;
-    color: aquamarine;
+    font-weight: 350;
+  padding: 0px 15px;
+  text-align: center;
+   border-radius: 0px;
+     border: solid #eeeeee 0px;
+  text-decoration: none;
+  display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.russiaa:hover, .russiaa:active {
+  background-color: #ffe580;
+    color: black;
+     text-shadow:0 0 10px white;
+   border: solid #b1b1b1 0px;
+   border-radius: 0px;
+   text-decoration: none;
+        }
+
+  .brazill {
+  background-color: #ffe580;
+     text-shadow: 0 0 0px white;
+  color: black;
+font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 350;
+  padding: 0px 15px;
+  text-align: center;
+   border-radius: 0px;
+     border: solid #eeeeee 0px;
+  text-decoration: none;
+  display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brazill:hover, .brazill:active {
+  background-color: #ffe580;
+    color: black;
+     text-shadow:0 0 10px white;
+   border: solid #b1b1b1 0px;
+   border-radius: 0px;
+   text-decoration: none;
+        }
+        
+
+.unitedkingdomm  {
+  background-color: #eeeeee;
+     text-shadow: 0 0 10px white;
+  color: grey;
+font-family: sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+  padding: 1px 20px;
+  text-align: center;
+   border-radius: 7px;
+     border: solid #eeeeee 4px;
+  text-decoration: none;
+  display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.unitedkingdomm:hover, .unitedkingdomm:active {
+   background-color: #b1b1b1;
+    color: dimgrey;
+     text-shadow: 0 0 0px grey;
+   border: solid #b1b1b1 4px;
+   border-radius: 7px;
+   text-decoration: none;
+        }
+
+.vietnamm{
+  background-color: #eeeeee;
+     text-shadow: 0 0 10px white;
+  color: grey;
+font-family: sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+  padding: 1px 20px;
+  text-align: center;
+   border-radius: 7px;
+     border: solid #eeeeee 4px;
+  text-decoration: none;
+  display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vietnamm:hover, .vietnamm:active {
+   background-color: #b1b1b1;
+    color: dimgrey;
+     text-shadow: 0 0 0px grey;
+   border: solid #b1b1b1 4px;
+   border-radius: 7px;
+   text-decoration: none;
+        }
+      /* Arrow russia * 
+        
+        
+        .lines{
+            width: 350px;
+            height: 45px;
+            position: absolute;
+            top: 49%;
+            right: 62%;
+        }
+        
+        .lines::after, .lines:before{
+            content: '';
+            position: absolute;
+            margin: auto;
+            height: 2px;
+            background: #fff;
+            width: 45%;
+            top: 45%;
+        }
+        
+        .lines::after{
+           left: 0; 
+        }
+       
+        .circle{
+           height: 20px;
+            width: 20px;
+            border: 2px solid #fff;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+            position: absolute;
+            left: -4%;
+            
+        }
+        
+              /* Arrow vietnam *
+       
+        
+        .lines3{
+            width: 140px;
+            height: 45px;
+            position: absolute;
+            top: 63%;
+            right: 68%;
+        }
+        
+        .lines3::after, .lines3:before{
+            content: '';
+            position: absolute;
+            margin: auto;
+            height: 2px;
+            background: #fff;
+            width: 45%;
+            top: 45%;
+        }
+        
+        .lines3::after{
+           left: 0;
+        }
+       
+        .circle3{
+           height: 20px;
+            width: 20px;
+            border: 2px solid #fff;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+            position: absolute;
+            left: 1%;
+            
+        }
+        
+            /* Arrow brazil *
+      
+       
+        .line4{
+            width: 160px;
+            height: 45px;
+            position: absolute;
+            top: 55%;
+            left: 75%;
+        }
+        
+        .line4::after, .line4::before{
+            content: '';
+            position: absolute;
+            margin: auto;
+            height: 2px;
+            background: #fff;
+            width: 45%;
+            top: 45%;
+        }
+        
+        
+        .line4::before{
+            left: 0;
+        }
+        
+        .circle4{
+            height: 20px;
+            width: 20px;
+            border: 2px solid #fff;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+            position: absolute;
+            left: -110%;
+        }
+        
+          /* Arrow usa *
+       
+      
+        
+        .line5{
+            width: 500px;
+            height: 45px;
+            position: absolute;
+            top: 40%;
+            left: 74%;
+        }
+        
+        .line5::after, .line5::before{
+            content: '';
+            position: absolute;
+            margin: auto;
+            height: 2px;
+            background: #fff;
+            width: 45%;
+            top: 45%;
+        }
+        
+        
+        .line5::before{
+            left: 0;
+        }
+        
+        .circle5{
+            height: 20px;
+            width: 20px;
+            border: 2px solid #fff;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+            position: absolute;
+            left: -103%;
+        }
+        
+        
+          /* Arrow uk *
+     
+        
+        .line6{
+            width: 500px;
+            height: 45px;
+            position: absolute;
+            top: 70%;
+            left: 73%;
+        }
+        
+        .line6::after, .line6::before{
+            content: '';
+            position: absolute;
+            margin: auto;
+            height: 2px;
+            background: #fff;
+            width: 45%;
+            top: 45%;
+        }
+        
+        
+        .line6::before{
+            left: 0;
+        }
+        
+        .circle6{
+            height: 20px;
+            width: 20px;
+            border: 2px solid #fff;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+            position: absolute;
+            left: -104%;
+        }
+
+//* links */
+        
+
+.col-md-8{
+    background-color:  #e0e0e0!important;
+
+}
+
