@@ -1,4 +1,4 @@
-//* nav bar and header chnages *//
+/* nav bar and header chnages */
   .dropdown-item{
      font-family: ocr-a-std, monospace !important;
 font-style: normal;
@@ -45,7 +45,7 @@ font-weight: 400;
 }
 
         
-//* for now this makes the navbar text resposnive however it is not centre *//
+/* for now this makes the navbar text resposnive however it is not centre */
 
 .none{
 color: transparent;
@@ -59,7 +59,7 @@ color: transparent;
     text-align: center;
 }
 
- //* <!-- style for country selction buttons -->*//
+ /* <!-- style for country selction buttons -->*/
     
   
         
@@ -282,210 +282,9 @@ font-family: sans-serif;
    border: solid #b1b1b1 4px;
    border-radius: 7px;
    text-decoration: none;
-        }
-      /* Arrow russia * 
-        
-        
-        .lines{
-            width: 350px;
-            height: 45px;
-            position: absolute;
-            top: 49%;
-            right: 62%;
-        }
-        
-        .lines::after, .lines:before{
-            content: '';
-            position: absolute;
-            margin: auto;
-            height: 2px;
-            background: #fff;
-            width: 45%;
-            top: 45%;
-        }
-        
-        .lines::after{
-           left: 0; 
-        }
-       
-        .circle{
-           height: 20px;
-            width: 20px;
-            border: 2px solid #fff;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border-radius: 50%;
-            position: absolute;
-            left: -4%;
-            
-        }
-        
-              /* Arrow vietnam *
-       
-        
-        .lines3{
-            width: 140px;
-            height: 45px;
-            position: absolute;
-            top: 63%;
-            right: 68%;
-        }
-        
-        .lines3::after, .lines3:before{
-            content: '';
-            position: absolute;
-            margin: auto;
-            height: 2px;
-            background: #fff;
-            width: 45%;
-            top: 45%;
-        }
-        
-        .lines3::after{
-           left: 0;
-        }
-       
-        .circle3{
-           height: 20px;
-            width: 20px;
-            border: 2px solid #fff;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border-radius: 50%;
-            position: absolute;
-            left: 1%;
-            
-        }
-        
-            /* Arrow brazil *
-      
-       
-        .line4{
-            width: 160px;
-            height: 45px;
-            position: absolute;
-            top: 55%;
-            left: 75%;
-        }
-        
-        .line4::after, .line4::before{
-            content: '';
-            position: absolute;
-            margin: auto;
-            height: 2px;
-            background: #fff;
-            width: 45%;
-            top: 45%;
-        }
-        
-        
-        .line4::before{
-            left: 0;
-        }
-        
-        .circle4{
-            height: 20px;
-            width: 20px;
-            border: 2px solid #fff;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border-radius: 50%;
-            position: absolute;
-            left: -110%;
-        }
-        
-          /* Arrow usa *
-       
-      
-        
-        .line5{
-            width: 500px;
-            height: 45px;
-            position: absolute;
-            top: 40%;
-            left: 74%;
-        }
-        
-        .line5::after, .line5::before{
-            content: '';
-            position: absolute;
-            margin: auto;
-            height: 2px;
-            background: #fff;
-            width: 45%;
-            top: 45%;
-        }
-        
-        
-        .line5::before{
-            left: 0;
-        }
-        
-        .circle5{
-            height: 20px;
-            width: 20px;
-            border: 2px solid #fff;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border-radius: 50%;
-            position: absolute;
-            left: -103%;
-        }
-        
-        
-          /* Arrow uk *
-     
-        
-        .line6{
-            width: 500px;
-            height: 45px;
-            position: absolute;
-            top: 70%;
-            left: 73%;
-        }
-        
-        .line6::after, .line6::before{
-            content: '';
-            position: absolute;
-            margin: auto;
-            height: 2px;
-            background: #fff;
-            width: 45%;
-            top: 45%;
-        }
-        
-        
-        .line6::before{
-            left: 0;
-        }
-        
-        .circle6{
-            height: 20px;
-            width: 20px;
-            border: 2px solid #fff;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-            border-radius: 50%;
-            position: absolute;
-            left: -104%;
-        }
+  }
 
-//* links */
+/* links */
         
 
 .col-md-8{
