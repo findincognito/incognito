@@ -17,6 +17,12 @@ font-style: normal;
 font-weight: 400;
 }
 
+.nav-item{
+  font-family: ocr-a-std, monospace !important;
+font-style: normal;
+font-weight: 400;
+}
+
 
   .breadcrumb{
                font-family: ocr-a-std, monospace;
