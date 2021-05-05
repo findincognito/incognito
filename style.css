@@ -152,33 +152,15 @@ links:hover, links:active {
 
 /* search button!!!! search button !!!!*/
 
- .UnitedStatess {
-  background-color: #eeeeee;
-     text-shadow: 0 0 10px white;
-  color: grey;
-font-family: sans-serif;
-    font-size: 39px;
-    font-weight: 400;
-  padding: 1px 20px;
-  text-align: center;
-   border-radius: 7px;
-     border: solid #eeeeee 4px;
-  text-decoration: none;
-  display: inline-block;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+ 
 
-.UnitedStatess:hover, .UnitedStatess:active {
-  background-color: #b1b1b1;
-    color: dimgrey;
-     text-shadow: 0 0 0px grey;
-   border: solid #b1b1b1 4px;
-   border-radius: 7px;
-   text-decoration: none;
-        }
+.UnitedStatess{
+  display: block;
+  margin-left: 43%;
+  margin-right: auto;
+  width: 30%;
+  
+}
 
  .russiaa {
   background-color: #ffe580;
