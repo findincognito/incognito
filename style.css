@@ -121,7 +121,7 @@ color: transparent;
 .links {
   background-color: transparent;
      text-shadow: 0 0 33px black;
-  color: darkgreen;
+  color: black;
   font-family: ocr-a-std, monospace !important;
 font-style: normal;
 font-weight: 400;
@@ -131,9 +131,9 @@ font-weight: 400;
     -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
    border-radius: 0px;
-     border: solid #11FF00 3px;
-box-shadow: inset 0 0 10px 1px #11FF00;
-    box-shadow: 0 0 10px 1px #11FF00;
+     border: solid #0dc000 1px;
+box-shadow: inset 0 0 5px 1px #0dc000;
+    box-shadow: 0 0 5px 1px #0dc000;
   text-decoration: none;
 
 
@@ -142,8 +142,8 @@ box-shadow: inset 0 0 10px 1px #11FF00;
 links:hover, links:active {
   background-color: transparent;
     color: white;
-     text-shadow: 0 0 5px #11FF00;
-   border: solid #11FF00 5px;
+     text-shadow: 0 0 5px #0dc000;
+   border: solid #0dc000 5px;
    -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
    border-radius: 0px;
