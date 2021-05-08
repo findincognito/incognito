@@ -59,6 +59,50 @@
             color: #0dc000;
 
         }
+
+        /* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  
+
+}
+
+.img__description {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  max-width: 20%;
+  max-height: 20%;
+  
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+
+  
+  
+  
+}
     </style>
 
 
@@ -140,8 +184,6 @@
 
 
 
-        <a class="UnitedStates" href="portfolio-1-col.html"> <img id="USA" src="NEON%20%20USA.png" height="20%" width="20%"></a>
-        <!--United States-->
         <a class="Brazil1" href="portfolio-2-col.html"> <img src="NEON%20BRAZIL.png" height="20%" width="20%"></a>
         <!--brazil-->
         <a class="Vietnam" href="portfolio-3-col.html"> <img src="NEON%20VIETNAM.png" height="25%" width="25%"></a>
@@ -155,7 +197,9 @@
     </div>
 
 
-  
+    <div class="img__wrap">
+        <a class="UnitedStates" href="portfolio-1-col.html"><img class="img__img" src="NEON  USA.png" height="20%" width="20%"/> <p class="img__description">USA</p></a>
+      </div>
     
 
   <!-- Footer -->
