@@ -75,40 +75,7 @@ color: transparent;
         .my-4{
             text-align: center;
         }
-        
-        .UnitedKingdom {
-    position: absolute;
-    top: 90%;
-    left: 57%;
-            transform: translate(-50%, -50%);
-}
-
-     
-
-        
-        
-        .Vietnam {
-    position: absolute;
-    top: 76%;
-    left: 82%;
-    transform: translate(-50%, -50%);
-}
-
-        .Russia {
-    position: absolute;
-    top: 39%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-}
-
-        
-        .Brazil1 {
-    position: absolute;
-    top: 76%;
-    left: 43%;
-    transform: translate(-50%, -50%);
-}
-
+ 
 
       /* link buttons */
 
