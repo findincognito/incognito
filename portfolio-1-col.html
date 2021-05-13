@@ -69,6 +69,9 @@
   width: 40%;
 }
 
+.country-search2{
+  display: none;
+}
 
 .search-engine {
   font-family: ocr-a-std, monospace !important;
@@ -77,7 +80,7 @@
 font-size: 2vw;
 position: absolute;
 text-align: center;
-top: 54%;
+top: 45%;
 left: 45%;
 color:transparent;
 
@@ -90,7 +93,7 @@ color:transparent;
 font-size: 2vw;
 position: absolute;
 text-align: center;
-top: 54%;
+top: 45%;
 left: 45%;
 color:black;
 text-shadow:0px 0px 8px #0dc000 ;
@@ -105,7 +108,7 @@ font-style: normal;
 font-weight: 400;
 padding: 10px;
 font-size: 17px;
-color: #4b4b4b;
+color: black;
 float: left;
 width: 50%;
 background: #e0e0e0;
@@ -137,74 +140,19 @@ transform: translate(-50%, -50%);
   text-decoration: none;
   cursor: pointer;
   }
-    </style>
-    
-</head>
+  
+@media screen  and (max-width:600px){  /* for tablets */
 
+  .country-search{
+  display: block;
+  margin-left: 40%;
+  width: 40%;
+}
 
-<!---- pop up----> 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-  .body2 {font-family: sans-serif;}
-  /* The Modal (background) */
-  .modal2 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  border-radius: 0px;
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  /* Modal Content */
-  .modal-content2 {
-  position: relative;
-  background-color: white;
-  margin: auto;
-  padding: 0;
-  width: 50%;
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s
-  }
-  /* Add Animation */
-  @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
-  }
-  @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
-  }
-  /* The Close Button */
-  .close2 {
-  color: #0dc000;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  }
-  .close2:hover,
-  .close2:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-  }
-  .modal-body2 {
-  font-family: ocr-a-std, monospace !important;
-  font-style: normal;
-  font-weight: 400;
-  text-align: center;
-  color: #4b4b4b;
-  padding: 2px 16px;}
-  .pop-up2 {
+.img2{
+  display: none;
+}
+.country-search2 {
   font-family: ocr-a-std, monospace !important;
   font-style: normal;
   font-weight: 400;
@@ -228,11 +176,11 @@ transform: translate(-50%, -50%);
   margin: 0;
   position: absolute;
   left: 50%;
-  margin-top: 90px;
+  margin-top: 150px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   }
-  .pop-up2:hover, .pop-up2:active {
+  .country-search2:hover, .country-search2:active {
   font-family: ocr-a-std, monospace !important;
   font-style: normal;
   font-weight: 400;
@@ -246,49 +194,13 @@ transform: translate(-50%, -50%);
   text-decoration: none;
   display: block;
   }
-  
-  </style>
-  </head>
-  <body>
-  <div class="row">
-  <div class="col-lg-2"> 
-  <!-- Trigger/Open The Modal -->
-  <button class="pop-up2" id="myBtn2">open me</button>
-  </div>
-  </div>
-  <!-- The Modal -->
-  <div id="myModal2" class="modal2">
-  <!-- Modal content -->
-  <div class="modal-content2">
-  <div class="modal-body2">
-  <span class="close2">&times;</span>
-  <br>
-  <p>In auto-complete, the feature that predicts search terms as the user types a query, Google's engineers have created algorithms and blacklists to weed out more-incendiary suggestions for controversial subjects, such as abortion or immigration, in effect filtering out inflammatory results on high-profile topics.</p>
-  </div>
-  </div>
-  </div>
-  <script>
-  // Get the modal
-  var modal = document.getElementById("myModal2");
-  // Get the button that opens the modal
-  var btn = document.getElementById("myBtn2");
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close2")[0];
-  // When the user clicks the button, open the modal 
-  btn.onclick = function() {
-  modal.style.display = "block";
-  }
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-  modal.style.display = "none";
-  }
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-  if (event.target == modal) {
-  modal.style.display = "none";
-  }
-  }
-  </script>
+
+}
+    </style>
+    
+</head>
+
+
   </body>
 
 <body>
@@ -315,7 +227,7 @@ transform: translate(-50%, -50%);
       <div class="col-lg-12">
 <!-- The form -->
 <form class="example" action="usa.html">
-  <input type="text" placeholder="Search.." name="search">
+  <input type="text" placeholder="Censorship in the USA.." name="search">
 </form>
       </div>
     </div>
@@ -331,6 +243,12 @@ transform: translate(-50%, -50%);
 </div>
 </div>
 
+  <!-- tablet/mobile search button-->
+<div class="row">
+  <div class="col-lg-2"> 
+  <button class="country-search2">Search</button>
+  </div>
+  </div>
 
 <div class="row">
   <div class="com-1 col-lg-2">
@@ -372,7 +290,7 @@ transform: translate(-50%, -50%);
             <div class="modal-body">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
               <br>
-                <p>Use this page to search for information on censorship within the United States.</p>
+                <p>Use the search button to learn information on censorship within the United States.</p>
                
             </div>
         </div>
