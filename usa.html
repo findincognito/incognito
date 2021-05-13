@@ -132,6 +132,7 @@ font-weight: 400;
   text-align: center;
   color: #4b4b4b;
   padding: 2px 16px;}
+
   .pop-up2 {
   font-family: ocr-a-std, monospace !important;
   font-style: normal;
@@ -151,14 +152,10 @@ font-weight: 400;
   border: solid #0dc000 3px;
   box-shadow: inset 0 0 10px 1px #0dc000;
   box-shadow: 0 0 10px 1px #0dc000;
-  text-decoration: none;
-  display: block;
-  margin: 0;
   position: absolute;
-  left: 50%;
-  margin-top: 150px;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 100px;
+  left: 50px;
+  
   }
   .pop-up2:hover, .pop-up2:active {
   font-family: ocr-a-std, monospace !important;
@@ -172,9 +169,54 @@ font-weight: 400;
   -moz-border-radius: 0px;
   border-radius: 0px;
   text-decoration: none;
-  display: block;
+  position: absolute;
+  top: 100px;
+  left: 50px;
   }
   
+  @media screen  and (max-width:400px){  /* for tablets/phones */
+    .pop-up2 {
+  font-family: ocr-a-std, monospace !important;
+  font-style: normal;
+  font-weight: 400;
+  background-color: transparent;
+  text-shadow: 0 0 33px black;
+  color: darkgreen;
+  font-family: ocr-a-std, monospace !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100%;
+  padding: 2px 15px;
+  text-align: center;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: solid #0dc000 3px;
+  box-shadow: inset 0 0 10px 1px #0dc000;
+  box-shadow: 0 0 10px 1px #0dc000;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  
+  }
+  .pop-up2:hover, .pop-up2:active {
+  font-family: ocr-a-std, monospace !important;
+  font-style: normal;
+  font-weight: 400;
+  background-color: transparent;
+  color: #e0e0e0;
+  text-shadow: 0 0 5px #0dc000;
+  border: solid #0dc000 3px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-decoration: none;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  }
+  
+  }
   </style>
   </head>
   <body>
