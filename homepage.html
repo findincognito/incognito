@@ -217,6 +217,47 @@
   opacity: 1;
 }
 
+
+
+ /* russia quick reset */
+ * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap4 {
+    position: absolute;
+    top: 39%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.img__description4 {
+  position: absolute;
+  text-align: center;
+  top: 60%;
+  bottom: 0;
+  left: 60px;
+  right: 0;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  max-width: 20%;
+  max-height: 20%;
+  
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap4:hover .img__description4 {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 @media screen  and (max-width:600px){  /* for tablets */
   
 
@@ -529,7 +570,11 @@
     <a class="Vietnam" href="portfolio-3-col.html"><img class="img__img3" src="NEON VIETNAM.png" height="30%" width="30%"/> <p class="img__description3">VIETNAM</p></a>
   </div>
 
-   
+   <!--russia-->
+<div class="img__wrap4">
+  <a class="Russia" href="portfolio-4-col.html"><img class="img__img4" src="NEON RUSSIA.png" height="80%" width="80%"/> <p class="img__description4">RUSSIA</p></a>
+  </div>
+  
 
         <!--United Kingdom-->
         <div class="img__wrap5">
