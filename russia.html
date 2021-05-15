@@ -387,8 +387,11 @@ box-shadow: inset 0 0 10px 3px transparent;
  
     <div class="vid1" id="MyImage">
     
-      <video class="vid-i"  autoplay src="https://www.youtube.com/embed/5E7wONbgiGM?rel=0&autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&fs=0&controls=0">
-      </video>
+      <iframe class="vid-i" autoplay muted src="https://www.youtube.com/embed/5E7wONbgiGM?rel=0&autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&fs=0&controls=0">
+      </iframe>
+      <script>
+    document.querySelector('.vid-i').play();
+    </script>
       
       <a class="try" id="myButton" href="services.html" target="_self"></a>
     </div>
